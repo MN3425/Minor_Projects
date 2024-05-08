@@ -21,9 +21,10 @@ body{
 
 .main-content{
     background-color:#121212;
-    flex:1;n 
-    border-radius: 1rem;
+    flex:1; 
+    border-radius: 10 rem;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .music-player{
@@ -135,5 +136,58 @@ a{
 }
 
 .sticky-nav{
-    display: inline-block;
+    position: sticky;
+    top:0;
+    background-color: #121212;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1 rem 0;
+}
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+}
+.sticky-nav-options{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 0.75rem;
+}
+
+.dark-badge{
+    background-color: #000;
+    color:#fff;
+}
+
+@media(max-width :1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.card{
+    background-color:#232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding:1rem;
+
+}
+.card-container{
+    display: flex;
+
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.8;
 }
