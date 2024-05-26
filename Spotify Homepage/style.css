@@ -276,3 +276,23 @@ a{
     cursor: pointer;
     margin-top: -5px;
 }
+.album{
+    height: 72px;
+}
+.controls{
+    height: 72px;
+}
+
+.playing-image{
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    width: 60px;
+    height: 62px;
+}
+.playing-image-library{
+    float: right;
+    padding: 1.5rem;
+    width: 20px;
+    height: 30px;
+
+}
